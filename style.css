@@ -13,6 +13,7 @@ h2 {
 }
 
 h3 {
+    margin-top: 0;
     font-size: 36px;
     font-weight: bolder;
 }
@@ -42,7 +43,7 @@ h3 {
     padding: 70px 200px;
     font-size: 18px;
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 
 .title-container {
@@ -67,6 +68,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 0;
 }
 
 .array {
@@ -89,3 +91,64 @@ h3 {
     text-align: center;
 }
 
+.testimonial {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-container {
+    width: 800px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.action{
+    padding: 70px 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    padding: 50px 120px;
+    background-color: #3882F6;
+    border: 5px none #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+.action-container h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.action-container p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.action-box button {
+    padding: 8px 30px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+}
