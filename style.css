@@ -1,34 +1,28 @@
-.out {
-    margin: auto;
-    border: 0px;
-    padding: 50px 100px;
+body{
+    margin: 0;
+    min-height: 100vh;
     font-family: sans-serif;
-}
-
-.head {
-    background-color: #1F2937;
-    color: white;
-    padding-top: 10px;
-}
-
-.testimonial {
-    background-color: #E5E7EB;
-}
-
-#header {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#header a {
-    margin: 0px 5px;
-    width: auto;
+.header {
+    padding: 15px 200px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.push {
-    justify-self: flex-end;
-}
-
-#header img {
+.header img {
     font-size: 24px;
     font-weight: bold;
 }
+
+.header-container {
+    display: flex;
+    gap: 10px;
+}
+
